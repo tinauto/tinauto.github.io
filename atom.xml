@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://tinauto.github.io</id>
     <title>Gridea</title>
-    <updated>2021-03-20T13:33:09.981Z</updated>
+    <updated>2021-03-20T14:00:07.910Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://tinauto.github.io"/>
     <link rel="self" href="http://tinauto.github.io/atom.xml"/>
@@ -18,8 +18,8 @@
         <updated>2021-03-20T11:03:19.000Z</updated>
         <content type="html"><![CDATA[<p>北京汽车制造厂在2003年引进丰田普拉多LC90生产线开始生产这款车，该车有三种型号，分别是使用丰田5vz-fe 3.4升发动机的陆霸3400 4AT（售价27.58万）、使用丰田3rz-fe 2.7升发动机的陆霸2700 5MT（售价24.8万）和使用仿制尼桑vg30 3.0升发动机的陆霸3000 5MT（售价18.63万）。</p>
 <p>In 2003,Beijing Automobile Manufacturing Factory introduced the Toyota Prado LC90 assembly line and started manufacturing this car . The car has three models, Landking 3400 4AT with Toyota 5vz-fe 3.4L engine（about 33.3 thousand USD ）、Landking 2700 5MT with Toyota 3rz-fe 2.7L engine （about 29.9 thousand USD）and Landking 3000 5MT whit a imitation Nissan vg30 3.0L engine（about 22.5 thousand USD ）.</p>
-<figure data-type="image" tabindex="1"><img src="http://tinauto.github.io/post-images/1616246388643.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="http://tinauto.github.io/post-images/1616246507455.jpg" alt="" loading="lazy"></figure>
+<p>Front  right<img src="http://tinauto.github.io/post-images/1616246388643.jpg" alt="" loading="lazy"></p>
+<p>Rear right<img src="http://tinauto.github.io/post-images/1616246507455.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
