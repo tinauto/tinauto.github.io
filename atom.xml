@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://tinauto.github.io</id>
     <title>Gridea</title>
-    <updated>2021-04-24T08:37:11.595Z</updated>
+    <updated>2021-05-08T02:53:41.324Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://tinauto.github.io"/>
     <link rel="self" href="http://tinauto.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>http://tinauto.github.io/images/avatar.png</logo>
     <icon>http://tinauto.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[【老旧车】庞蒂亚克 Solstice/Pontiac Solstice]]></title>
+        <id>http://tinauto.github.io/post/lao-jiu-che-pang-di-ya-ke-solsticepontiac-solstice/</id>
+        <link href="http://tinauto.github.io/post/lao-jiu-che-pang-di-ya-ke-solsticepontiac-solstice/">
+        </link>
+        <updated>2021-05-08T02:33:42.000Z</updated>
+        <content type="html"><![CDATA[<p>庞蒂亚克 Solstice<br>
+上海通用汽车并未通过官方渠道引进过该车，但是一些平行进口经销商曾经少量引进过。在2007年gxp版本的价格为65万，在2010年普通版为55万。拍摄于2014年7月！</p>
+<p>Pontiac Solstice<br>
+Shanghai GM did not introduce the car into china through the official channel, but some parallel import dealers have introduced a small amount of the car. In 2007, the price of the GXP version is 650,000 Yuan (about 83.5 thousand USD), the price of the ordinary version is 550,000 Yuan (about 97 thousand USD).Shooting in July 2014!<br>
+ps：exchange rates were different in 2010 and 2007</p>
+<p>Pontiac Solstice<br>
+<img src="http://tinauto.github.io/post-images/1620441939965.jpg" alt="" loading="lazy"></p>
+<p>Solstice in Tianjin Bonded Area Automobile Trading Town<br>
+<img src="http://tinauto.github.io/post-images/1620441751453.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【老旧车】魂断南京-菲亚特多宝\Waterloo in Nanjing-Fiat doblo]]></title>
         <id>http://tinauto.github.io/post/lao-jiu-che-hun-duan-nan-jing-fei-ya-te-duo-bao-waterloo-in-nanjing-fiat-doblo/</id>
