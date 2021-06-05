@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://tinauto.github.io</id>
     <title>Gridea</title>
-    <updated>2021-05-24T01:37:33.383Z</updated>
+    <updated>2021-06-05T09:40:01.176Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://tinauto.github.io"/>
     <link rel="self" href="http://tinauto.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>http://tinauto.github.io/images/avatar.png</logo>
     <icon>http://tinauto.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[【老旧车】Alfa Romeo 156\阿尔法罗密欧 156]]></title>
+        <id>http://tinauto.github.io/post/lao-jiu-che-156a-er-fa-luo-mi-ou-156/</id>
+        <link href="http://tinauto.github.io/post/lao-jiu-che-156a-er-fa-luo-mi-ou-156/">
+        </link>
+        <updated>2021-06-05T09:17:37.000Z</updated>
+        <content type="html"><![CDATA[<p>在2003年至2006年期间，阿尔法罗密欧公司曾经通过南京菲亚特集团渠道销售过两款车型，分别是156和166。156只有一款2.0升5at版本，售价约为35万。拍摄于2013年8月！</p>
+<p>From 2003 to 2006，The Alfa Romeo was officially sold 156 and 166 in China by the Nanjing-Fiat dealer network.The 156 there was only one version ，a 2.0L engine with 5AT gearbox. Price in 2004 was 350.000 yuan（about 56.910 thousand USD），about .shooting in August 2013！</p>
+<p>Left Front<br>
+<img src="http://tinauto.github.io/post-images/1622885262368.jpg" alt="" loading="lazy"></p>
+<p>Rear<br>
+<img src="http://tinauto.github.io/post-images/1622885272928.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【老旧车】上海通用 别克君威\SGM Buick Regal]]></title>
         <id>http://tinauto.github.io/post/lao-jiu-che-bie-ke-jun-wei-buick-regal/</id>
