@@ -1,0 +1,627 @@
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Gridea</title>
+<meta name="description" content="为可爱的小车车拍照">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://tinauto.github.io/favicon.ico?v=1724720945484">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="http://tinauto.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://tinauto.github.io">
+        <img class="avatar" src="http://tinauto.github.io/images/avatar.png?v=1724720945484" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://tinauto.github.io">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a class="menu purple-link" href="/" class="menu" target="_blank">
+            首页\home
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="/archives" class="menu" target="_blank">
+            文章\article
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="/tags" class="menu" target="_blank">
+            标签\tags
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="/post/about" class="menu" target="_blank">
+            关于\about me
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+        <div class="content-container">
+          
+          
+
+<div class="archives-container">
+  
+    <h2 class="year">2022</h2>
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ma-zi-da-cx-5/">
+            <h2 class="post-title">
+              【老旧车】马自达 CX-7\Mazda CX-7
+              <small>2022-08-13</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ji-li-qi-xia-ge-pin-pai-jian-shi/">
+            <h2 class="post-title">
+              【历史&amp;趣闻】吉利旗下各品牌简史（下）\A brief history of Geely&#34;brand (Downward)
+              <small>2022-07-30</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ji-li-ying-lun-c5/">
+            <h2 class="post-title">
+              【老旧车】英伦 c5\Englon c5
+              <small>2022-07-16</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ji-li-qi-xia-ge-pin-pai-jian-shi-a-brief-history-of-gelly-brand/">
+            <h2 class="post-title">
+              【历史&amp;趣闻】吉利旗下各品牌简史（上）\A brief history of Geely&#34;s brand（Upward）
+              <small>2022-07-02</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-biao-zhi-307sw/">
+            <h2 class="post-title">
+              【老旧车】标致 307sw\Peugeot 307sw
+              <small>2022-06-18</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-shang-hai-hui-zhong-yi-si-tan-na-shac-istana/">
+            <h2 class="post-title">
+              【老旧车】上海汇众 伊斯坦纳\SHAC ISTANA
+              <small>2022-06-04</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-li-fan-520lifan-520/">
+            <h2 class="post-title">
+              【老旧车】力帆 520\Lifan 520
+              <small>2022-05-21</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-fu-te-jin-niu-zuo-di-san-dai-ford-taurus-3rd/">
+            <h2 class="post-title">
+              【老旧车】福特金牛座 第三代\Ford Taurus Gen3
+              <small>2022-05-07</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ben-tian/">
+            <h2 class="post-title">
+              【老旧车】本田CR-Z\Honda CR-Z
+              <small>2022-04-23</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-feng-tian-wish/">
+            <h2 class="post-title">
+              【老旧车】丰田 Wish\Toyota Wish
+              <small>2022-04-09</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-feng-tian-ji-xian-da-toyota/">
+            <h2 class="post-title">
+              【老旧车】丰田 基先达\Toyota Cressida
+              <small>2022-03-26</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lei-nuo-kz-e/">
+            <h2 class="post-title">
+              【老旧车】六胞胎-雷诺e诺\Sextuplets-Renualt K-ZE
+              <small>2022-03-12</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-how-the-fate-of-gangqi-acura/">
+            <h2 class="post-title">
+              【历史&amp;趣闻】广汽讴歌命运走向何方？\How the fate of Gac-Acura ?
+              <small>2022-03-05</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-dong-feng-a9dongfeng-a9/">
+            <h2 class="post-title">
+              【老旧车】东风 风神A9\Dongfeng Aeolus A9
+              <small>2022-02-26</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-uaz-452/">
+            <h2 class="post-title">
+              【老旧车】UAZ 469
+              <small>2022-02-12</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-fei-ya-te-zhou-mo-feng-lu-xing-ban/">
+            <h2 class="post-title">
+              【老旧车】菲亚特 派力奥周末风\Fiat Palio Weekend
+              <small>2022-01-29</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ji-pu-mu-ma-ren-tj-jeep-wrangler-tj/">
+            <h2 class="post-title">
+              【老旧车】吉普 牧马人 TJ \Jeep Wrangler TJ
+              <small>2022-01-15</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-gua-da-zhong-biao-de-xi-ban-ya-che-du-shi-gao-er-fu/">
+            <h2 class="post-title">
+              【老旧车】挂大众标的西班牙车-都市高尔夫\A Spanish car with VW logo-City Golf
+              <small>2022-01-01</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    <h2 class="year">2021</h2>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-dao-qi-ram-350dodge-ram-350/">
+            <h2 class="post-title">
+              【老旧车】道奇 Ram 350\Dodge Ram 350
+              <small>2021-12-18</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ou-ge-rl/">
+            <h2 class="post-title">
+              【老旧车】讴歌 RL\Acura RL
+              <small>2021-12-04</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ha-fei/">
+            <h2 class="post-title">
+              【老旧车】哈飞 赛豹\Hafei Saibao
+              <small>2021-11-20</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-da-yu-gui-zu-daewoo-espero/">
+            <h2 class="post-title">
+              【老旧车】大宇 贵族\Daewoo Espero
+              <small>2021-11-06</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-lin-ken-mktlinclon-mkt/">
+            <h2 class="post-title">
+              【老旧车】林肯 MKT\Linclon MKT
+              <small>2021-10-23</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-guang-zhou-biao-zhi-505-sxguangzhou-peugeot-505-sx/">
+            <h2 class="post-title">
+              【老旧车】广州标致 505sx\Guangzhou-Peugeot 505sx
+              <small>2021-10-09</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ben-tian-yuan-su-honda-element/">
+            <h2 class="post-title">
+              【老旧车】本田 元素\Honda Element
+              <small>2021-09-25</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ke-lai-si-le-da-jie-long/">
+            <h2 class="post-title">
+              【老旧车】克莱斯勒 大捷龙\Chrysler Voyager 
+              <small>2021-09-11</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ben-tian-prelude-di-si-dai-honda-prelude-gen4/">
+            <h2 class="post-title">
+              【老旧车】本田 Prelude 第四代 \Honda Prelude Gen 4
+              <small>2021-08-28</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-yun-bao-zhi-yue-yb6470/">
+            <h2 class="post-title">
+              【老旧车】云豹 YB6470\Yunbao YB6470
+              <small>2021-08-14</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-ben-chi-w124-230emercedes-benz-w124-230e/">
+            <h2 class="post-title">
+              【老旧车】奔驰W124 230E\Mercedes-Benz W124 230E
+              <small>2021-07-31</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-lei-nuo-feng-jing-jmrenault-scenic-jm/">
+            <h2 class="post-title">
+              【老旧车】雷诺 风景JM\Renault Scenic JM
+              <small>2021-07-17</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-bao-ma-7-xi-e38bmw-7-series-e38/">
+            <h2 class="post-title">
+              【老旧车】宝马 7系 E38\BMW 7 Series E38
+              <small>2021-06-26</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-156a-er-fa-luo-mi-ou-156/">
+            <h2 class="post-title">
+              【老旧车】阿尔法罗密欧156\Alfa Romeo 156
+              <small>2021-06-12</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-bie-ke-jun-wei-buick-regal/">
+            <h2 class="post-title">
+              【老旧车】上海通用 别克君威\SGM Buick Regal
+              <small>2021-05-29</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-pang-di-ya-ke-solsticepontiac-solstice/">
+            <h2 class="post-title">
+              【老旧车】庞蒂亚克 Solstice/Pontiac Solstice
+              <small>2021-05-15</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-hun-duan-nan-jing-fei-ya-te-duo-bao-waterloo-in-nanjing-fiat-doblo/">
+            <h2 class="post-title">
+              【历史&amp;趣闻】魂断南京-菲亚特多宝\Waterloo in Nanjing-Fiat Doblo
+              <small>2021-05-01</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-nan-jing-fei-ya-te-pai-li-ao-zhou-mo-feng-nanjing-fiat-palio-weekend/">
+            <h2 class="post-title">
+              【老旧车】南京菲亚特 派力奥周末风\Nanjing-Fiat Palio weekend
+              <small>2021-04-17</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/lao-jiu-che-bei-qi-lu-ba-3000baw-landking-3000/">
+            <h2 class="post-title">
+              【老旧车】北汽 陆霸3000/BAW Landking 3000
+              <small>2021-04-03</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="http://tinauto.github.io/post/hello-gridea/">
+            <h2 class="post-title">
+              Hello Gridea
+              <small>2021-04-01</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+  
+</div>
+
+
+        </div>
+
+        <div class="site-footer">
+  <div class="slogan">为可爱的小车车拍照</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://tinauto.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+      </div>
+      <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+    </div>
+  </body>
+</html>
